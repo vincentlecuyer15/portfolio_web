@@ -1,0 +1,10 @@
+body {
+    color: red;
+    width: 100%;
+}
+header {
+    width: 100%;
+}
+li {
+    display: inline;
+}
