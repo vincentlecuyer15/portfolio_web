@@ -78,7 +78,78 @@ ul li a:hover {
     text-align: center;
 }
 
+/* Début de la section Contact*/
 
+#contact {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#contact h1 {
+    font-size: 3em;
+    margin-top: 2em;
+}
+
+.contact {
+        width: 50%;
+        margin: auto;
+        border: 1px solid black;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .contact label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      .contact input[type="text"],
+      .contact input[type="email"],
+      .contact textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .contact textarea {
+        overflow-y: auto;
+        height: 200px;
+        min-height: 200px;
+        max-height: 200px;
+      }
+
+      .contact input[type="submit"] {
+        display: block;
+        margin: 0 auto;
+        background-color: #4caf50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .contact input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+
+/* Fin de la section Contact*/
 
 
 
