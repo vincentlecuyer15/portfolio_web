@@ -17,7 +17,7 @@ header {
     align-items: center;
   }
   
-.photodeprofil_container {
+.name_container {
     display: flex;
     align-items: center;
     color: black;
@@ -25,24 +25,10 @@ header {
     background-color: white;
 }
 
-.header_photodeprofil {
-    width: 3em;
-    height: 4em;
-    margin: 0 1.2rem 0 1.2rem;
-}
-
-#photodeprofil {
-    object-fit: cover;
-    object-position: center;
-    display: block;
-    border-radius: 50%;
-    max-width: 100%;
-    max-height: 100%;
-}
-
 #header_name {
     font-size: 1.8rem;
     font-weight: 700;
+    margin-left: 2em;
 
 }
 
@@ -83,6 +69,20 @@ ul li a:hover {
 
 /* Fin de la section Header */
 
+#home {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 0;
+    padding-top: 1px;
+    height: 100vh;
+    text-align: center;
+}
+
+
+
+
+
+/* Début de la section Footer */ 
 footer {
     background-color: white;
     width: 100%;
@@ -91,3 +91,4 @@ footer {
     align-items: center;
     display: flex;
 }
+/* Fin de la section Footer */
