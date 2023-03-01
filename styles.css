@@ -69,14 +69,120 @@ ul li a:hover {
 
 /* Fin de la section Header */
 
-#home {
-    width: 100%;
-    background-color: #f9f9f9;
-    padding: 0;
-    padding-top: 1px;
-    height: 100vh;
-    text-align: center;
+/* Début de la section Projets */
+
+#projects {
+  height: 100vh;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding-top: 1px;
 }
+
+.projects-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 10em auto 0;
+  flex-direction: row;
+}
+
+.projects-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  margin: 10px;
+}
+
+.projects-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.projects-container h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#projects h1 {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 3em;
+}
+
+#projects h3 {
+  margin-top: 1em;
+  text-align: center;
+  font-size: 2em;
+}
+
+/* Fin de la section Projets */
+
+/* Début de la section Accueil */
+
+#accueil {
+  width: 100%;
+  background-color: #f9f9f9;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  contain: content;
+}
+
+.accueil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 27em;
+  max-width: 20em;
+  min-width: 15em;
+  margin: 0 0 0 7em;
+}
+
+#profilepicture {
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  flex: 0 0 1px;
+  height: 80%;
+  margin: 0 8em 0 8em;
+  background-color: black;
+  border: none;
+}
+
+.text_container {
+  flex: 1;
+  width: 80em;
+  height: 800px;
+  margin-right: 6em;
+}
+
+.h1accueil {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.paccueil {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Fin de la section Accueil */
 
 /* Début de la section Contact*/
 
@@ -87,6 +193,7 @@ ul li a:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100%;
 }
 
 #contact h1 {

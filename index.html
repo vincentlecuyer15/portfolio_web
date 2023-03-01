@@ -16,67 +16,83 @@
       <nav>
         <ul>
           <li><a href="#home">Accueil</a></li>
-          <li><a href="#about">À propos</a></li>
           <li><a href="#projects">Projets</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section id="home">
-        <div>
-          <h1>Vincent L'Ecuyer</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Consectetur laudantium, modi cum quo doloremque dolorem provident
-            tempore aperiam repellendus veritatis perspiciatis repudiandae
-            molestiae deleniti sapiente assumenda eligendi totam necessitatibus.
-            Quis.
-          </p>
-          <input
-            type="button"
-            name="projets"
-            id="projectbutton"
-            value="Mes projets"
-          />
-        </div>
-      </section>
-      <section id="about">
-        <h1>À propos de moi</h1>
-        <div>
-          <h2>Qui suis-je ?</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            distinctio inventore libero reprehenderit porro, facilis repellat
-            sint explicabo, expedita est aut, laborum nam aliquam harum dolorum
-            molestias vero laudantium placeat. Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Eius, facilis. Illum, voluptate sit,
-            facilis reiciendis deserunt exercitationem temporibus repellat
-            perspiciatis repellendus quaerat obcaecati. Cupiditate rerum quaerat
-            ea fuga numquam sapiente?
-          </p>
-          <input
-            type="button"
-            name="contact"
-            id="contact button"
-            value="Contactez-moi"
-          />
-        </div>
-        <div>
-          <h2>Compétences</h2>
-          <input type="button" value="HTML" />
-          <input type="button" value="CSS" />
+      <section id="accueil">
+        <div class="accueil">
+          <div class="image_container">
+            <img
+              src="photodeprofil.jpg"
+              alt="Photo de profil"
+              id="profilepicture"
+            />
+          </div>
+          <hr />
+          <div class="text_container">
+            <h1 class="h1accueil">Qui suis-je ?</h1>
+            <p class="paccueil">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consectetur laudantium, modi cum quo doloremque dolorem provident
+              tempore aperiam repellendus veritatis perspiciatis repudiandae
+              molestiae deleniti sapiente assumenda eligendi totam
+              necessitatibus. Quis.Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Consectetur laudantium, modi cum quo doloremque
+              dolorem provident tempore aperiam repellendus veritatis
+              perspiciatis repudiandae molestiae deleniti sapiente assumenda
+              eligendi totam necessitatibus. Quis.Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Consectetur laudantium, modi cum quo
+              doloremque dolorem provident tempore aperiam repellendus veritatis
+              perspiciatis repudiandae molestiae deleniti sapiente assumenda
+              eligendi totam necessitatibus. Quis.Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Consectetur laudantium, modi cum quo
+              doloremque dolorem provident tempore aperiam repellendus veritatis
+              perspiciatis repudiandae molestiae deleniti sapiente assumenda
+              eligendi totam necessitatibus. Quis.
+            </p>
+            <h1 class="h1accueil">Mes compétences</h1>
+            <p class="paccueil">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consectetur laudantium, modi cum quo doloremque dolorem provident
+              tempore aperiam repellendus veritatis perspiciatis repudiandae
+              molestiae deleniti sapiente assumenda eligendi totam
+              necessitatibus. Quis.Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Consectetur laudantium, modi cum quo doloremque
+              dolorem provident Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Consectetur laudantium, modi cum quo doloremque
+              dolorem provident tempore aperiam repellendus veritatis
+              perspiciatis repudiandae molestiae deleniti sapiente assumenda
+              eligendi totam necessitatibus. Quis.Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Consectetur laudantium, modi cum quo
+              doloremque dolorem provident tempore aperiam repellendus veritatis
+              perspiciatis repudiandae molestiae deleniti sapiente assumenda
+              eligendi totam necessitatibus. Quis.tempore aperiam repellendus
+              veritatis perspiciatis repudiandae molestiae deleniti sapiente
+              assumenda eligendi totam necessitatibus. Quis.
+            </p>
+          </div>
         </div>
       </section>
       <section id="projects">
-        <h1>Mes projets</h1>
         <div>
-          <img src="projet1.png" alt="Premier projet" />
-          <h3>Nom du projet</h3>
+          <h1>Mes projets</h1>
         </div>
-        <div>
-          <img src="projet2.png" alt="Deuxième projet" />
-          <h3>Nom du projet</h3>
+        <div class="projects-container">
+          <div>
+            <a href="premierprojet.html"
+              ><img src="projet.png" alt="Premier projet"
+            /></a>
+            <h3>Nom du projet 1</h3>
+          </div>
+          <div>
+            <a href="deuxiemeprojet.html"
+              ><img src="projet.png" alt="Deuxième projet"
+            /></a>
+            <h3>Nom du projet 2</h3>
+          </div>
         </div>
       </section>
       <section id="contact">
