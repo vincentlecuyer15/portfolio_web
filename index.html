@@ -1,49 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vincent L'Ecuyer</title>
-    <link rel="stylesheet" href="/styles/index.css" />
-    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
-  </head>
-  <body>
-    <header>
-      <div class="name_container">
-        <h2 class="header_name">Vincent L'Ecuyer</h2>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#home">Accueil</a></li>
-          <li><a href="#projets">Projets</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="home" class="section-principale">
-        <div class="accueil">
-          <div class="image_container">
-            <img
-              src="/img/photodeprofil.jpg"
-              alt="Photo de profil"
-              id="profilepicture"
-            />
-          </div>
-          <hr />
-          <section class="text_container">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vincent L'Ecuyer</title>
+  <link rel="stylesheet" href="/styles/index.css" />
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+</head>
+
+<body>
+  <header id="header">
+    <div class="name_container">
+      <h2 class="header_name">Vincent L'Ecuyer</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="accueil" class="section-principale">
+      <div class="accueil">
+        <div class="image_container">
+          <img src="/img/photodeprofil.jpg" alt="Photo de profil" id="profilepicture" />
+        </div>
+        <hr />
+        <section class="text_container">
           <div>
             <h1 class="titre-accueil">Qui suis-je ?</h1>
             <p class="texte-information">
-              Je suis une personne passionnée par la nature et les activités en plein air, 
-              en particulier les randonnées pédestres en montagne. 
+              Je suis une personne passionnée par la nature et les activités en plein air,
+              en particulier les randonnées pédestres en montagne.
               J'y trouve un grand réconfort et cela me permet de connecter avec le monde qui m'entoure.
-               En plus d'aimer la nature, j'ai une passion pour l'informatique et l'art du codage. 
-               J'étudie actuellement en technique de l'informatique au cégep de Rimouski et 
-               je suis déterminé à devenir un développeur de logiciels, d'applications ou de sites web. 
-               Je suis motivé et je n'ai donc pas peur d'apprendre par moi-même 
-               les connaissances que j'ai besoin.
+              En plus d'aimer la nature, j'ai une passion pour l'informatique et l'art du codage.
+              J'étudie actuellement en technique de l'informatique au cégep de Rimouski et
+              je suis déterminé à devenir un développeur de logiciels, d'applications ou de sites web.
+              Je suis motivé et je n'ai donc pas peur d'apprendre par moi-même
+              les connaissances que j'ai besoin.
             </p>
           </div>
           <div>
@@ -55,54 +53,42 @@
               <li class="liste-competence">HTML</li>
             </ul>
           </div>
-      </section>
-      </section>
-      <section id="projets" class="section-projet">
+        </section>
+    </section>
+    <section id="projets" class="section-projet">
+      <div>
+        <h1 class="titre-projet">Mes projets</h1>
+      </div>
+      <div class="projects-container">
         <div>
-          <h1 class="titre-projet">Mes projets</h1>
+          <a href="/pages/projets.html#projet-un"><img src="img/premierprojet.PNG" alt="Premier projet"
+              class="imgprojet" /></a>
+          <h3 class="soustitre-projet">Roche, Papier, Ciseaux</h3>
         </div>
-        <div class="projects-container">
-          <div>
-            <a href="/pages/projets.html"
-              ><img src="img/projet.png" alt="Premier projet" class="imgprojet"
-            /></a>
-            <h3 class="soustitre-projet">Nom du projet 1</h3>
-          </div>
-          <div>
-            <a href="/pages/projets.html"
-              ><img src="img/projet.png" alt="Deuxième projet" class="imgprojet"
-            /></a>
-            <h3 class="soustitre-projet">Nom du projet 2</h3>
-          </div>
+        <div>
+          <a href="/pages/projets.html#projet-deux"><img src="img/deuxiemeprojet.PNG" alt="Deuxième projet"
+              class="imgprojet" /></a>
+          <h3 class="soustitre-projet">Opérations sur un mot</h3>
         </div>
-      </section>
-      <section id="contact" class="section-contact">
-        <h1>Contactez-moi</h1>
-        <form class="contact">
-          <label for="nom">Votre nom</label>
-          <input type="text" id="nom" name="nom" placeholder="Votre nom.." />
+      </div>
+    </section>
+    <section id="contact" class="section-contact">
+      <h1>Contactez-moi</h1>
+      <form class="contact">
+        <label for="nom">Votre nom</label>
+        <input required type="text" id="nom" name="nom" placeholder="Votre nom.." />
+        <label for="email">Votre email</label>
+        <input required type="email" id="email" name="email" placeholder="Votre email.." />
+        <label for="message">Message</label>
+        <textarea required id="message" name="message" placeholder="Votre message.."></textarea>
+        <input type="submit" value="Envoyer" />
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>© 2023 Vincent L'Ecuyer. Tous droits réservés.</p>
+  </footer>
+  <a href="#header" class="scroll-to-top"><img id="scroll" src="img/fleche.jpg" alt="fleche"></a>
+</body>
 
-          <label for="email">Votre email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Votre email.."
-          />
-
-          <label for="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            placeholder="Votre message.."
-          ></textarea>
-
-          <input type="submit" value="Envoyer" />
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>© 2023 Vincent L'Ecuyer. Tous droits réservés.</p>
-    </footer>
-  </body>
 </html>
