@@ -11,28 +11,28 @@
 
 <body>
   <header id="header">
-    <div class="name_container">
-      <h2 class="header_name">Vincent L'Ecuyer</h2>
+    <div class="name-container">
+      <h2>Vincent L'Ecuyer</h2>
     </div>
     <nav>
       <ul>
-        <li><a href="#accueil">Accueil</a></li>
-        <li><a href="#projets">Projets</a></li>
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#projects">Projets</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section id="accueil" class="section-principale">
-      <div class="accueil">
-        <div class="image_container">
+    <section id="home" class="principal-section">
+      <div class="home">
+        <div class="image-container">
           <img src="./img/photodeprofil.jpg" alt="Photo de profil" id="profilepicture" />
         </div>
         <hr />
-        <section class="text_container">
+        <div class="text-container">
           <div>
-            <h1 class="titre-accueil">Qui suis-je ?</h1>
-            <p class="texte-information">
+            <h1 class="home-title">Qui suis-je ?</h1>
+            <p class="text-information">
               Je suis une personne passionnée par la nature et les activités en plein air,
               en particulier les randonnées pédestres en montagne.
               J'y trouve un grand réconfort et cela me permet de connecter avec le monde qui m'entoure.
@@ -44,38 +44,38 @@
             </p>
           </div>
           <div>
-            <h1 class="titre-accueil">Mes compétences</h1>
-            <ul class="liste-competence-container">
-              <li class="liste-competence">Typescript</li>
-              <li class="liste-competence">C++</li>
-              <li class="liste-competence">CSS</li>
-              <li class="liste-competence">HTML</li>
+            <h1 class="home-title">Mes compétences</h1>
+            <ul class="competence-list-container">
+              <li>Typescript</li>
+              <li>C++</li>
+              <li>CSS</li>
+              <li>HTML</li>
             </ul>
           </div>
-        </section>
+        </div>
     </section>
-    <section id="projets" class="section-projet">
+    <section id="projects" class="projects-section">
       <div>
-        <h1 class="titre-projet">Mes projets</h1>
+        <h1 class="projects-title">Mes projets</h1>
       </div>
       <div class="projects-container">
         <div>
-          <a href="./pages/projets.html#projet-un"><img src="./img/premierprojet.PNG" alt="Premier projet"
-              class="imgprojet" /></a>
-          <h3 class="soustitre-projet">Roche, Papier, Ciseaux</h3>
+          <a href="./pages/projects.html#first-project"><img src="./img/premierprojet.PNG" alt="Photo de la console du programme Roche, Papier, Ciseaux."
+              class="projects-image" /></a>
+          <h3 class="projects-subtitle">Roche, Papier, Ciseaux</h3>
         </div>
         <div>
-          <a href="./pages/projets.html#projet-deux"><img src="./img/deuxiemeprojet.PNG" alt="Deuxième projet"
-              class="imgprojet" /></a>
-          <h3 class="soustitre-projet">Opérations sur un mot</h3>
+          <a href="./pages/projects.html#second-project"><img src="./img/deuxiemeprojet.PNG" alt="Photo de la console du programme Opérations sur un mot."
+              class="projects-image" /></a>
+          <h3 class="projects-subtitle">Opérations sur un mot</h3>
         </div>
       </div>
     </section>
-    <section id="contact" class="section-contact">
+    <section id="contact" class="contact-section">
       <h1>Contactez-moi</h1>
       <form class="contact">
-        <label for="nom">Votre nom</label>
-        <input required type="text" id="nom" name="nom" placeholder="Votre nom.." />
+        <label for="name">Votre nom</label>
+        <input required type="text" id="name" name="name" placeholder="Votre nom.." />
         <label for="email">Votre email</label>
         <input required type="email" id="email" name="email" placeholder="Votre email.." />
         <label for="message">Message</label>

@@ -22,7 +22,7 @@ header {
   align-items: center;
 }
 
-.name_container {
+.name-container {
   display: flex;
   align-items: center;
   color: black;
@@ -30,7 +30,7 @@ header {
   background-color: white;
 }
 
-.header_name {
+.header-name {
   font-size: 1.8rem;
   font-weight: 700;
   margin-left: 2em;
@@ -77,7 +77,7 @@ ul li a:hover {
   align-items: center;
 }
 
-.titre {
+.title {
   text-align: center;
   font-size: 2em;
   margin-top: 2em;
