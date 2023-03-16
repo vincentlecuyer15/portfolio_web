@@ -15,7 +15,7 @@ body {
 /* Section Header */
 
 header {
-  background-color: white;
+  background-color: #FFFFFF;
   height: 6em;
   display: flex;
   justify-content: space-between;
@@ -25,9 +25,9 @@ header {
 .name-container {
   display: flex;
   align-items: center;
-  color: black;
+  color: #000000;
   height: 4em;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 header h2 {
@@ -53,9 +53,9 @@ ul li {
 ul li a {
   display: block;
   padding: 1.3em;
-  background-color: white;
+  background-color: #FFFFFF;
   text-decoration: none;
-  color: black;
+  color: #000000;
   border-radius: 10%;
   font-weight: 900;
   font-size: 1.2em;
@@ -63,7 +63,7 @@ ul li a {
 }
 
 ul li a:hover {
-  color: green;
+  color: #008000;
 }
 
 /* Section Accueil */
@@ -97,15 +97,15 @@ ul li a:hover {
 #profilepicture {
   max-width: 100%;
   height: auto;
-  border: 4px solid black;
+  border: 4px solid #000000;
 }
 
 hr {
   flex: 0 0 1px;
   height: 80%;
   margin: 0 8em 0 8em;
-  background-color: black;
-  border: 1px solid black;
+  background-color: #000000;
+  border: 1px solid #000000;
 }
 
 .text-container {
@@ -135,7 +135,7 @@ hr {
 }
 
 .competence-list-container li {
-  background-color: lightgray;
+  background-color: #d3d3d3;
   padding: 1em;
   margin: 2em 1.5em 0em 0;
 }
@@ -158,7 +158,7 @@ hr {
 }
 
 .projects-image {
-  border: 4px solid black;
+  border: 4px solid #000000;
   transition: transform 0.5s ease;
   transform-style: preserve-3d;
   perspective: 62.5em;
@@ -208,7 +208,7 @@ hr {
 .contact {
   width: 50%;
   margin: auto;
-  border: 1px solid black;
+  border: 1px solid #000000;
   padding: 1.25em;
   box-sizing: border-box;
   display: flex;
@@ -233,7 +233,7 @@ hr {
   padding: 0.6em;
   margin-bottom: 1.25em;
   box-sizing: border-box;
-  border: 2px solid #ccc;
+  border: 2px solid #cccccc;
   border-radius: 4px;
   resize: vertical;
   font-size: 1em;
@@ -251,7 +251,7 @@ hr {
   display: block;
   margin: 0 auto;
   background-color: #4caf50;
-  color: white;
+  color: #FFFFFF;
   padding: 12px 1.25em;
   border: none;
   border-radius: 4px;
@@ -267,7 +267,7 @@ hr {
 /* Section Footer */
 
 footer {
-  background-color: white;
+  background-color: #FFFFFF;
   width: 100%;
   height: 6em;
   justify-content: center;
