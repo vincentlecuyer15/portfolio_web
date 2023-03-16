@@ -10,7 +10,7 @@ html {
 
 body {
   font-size: 1em;
-  background-color: red;
+  margin-top: 6em;
 }
 
 /* Section Header */
@@ -21,6 +21,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .name-container {
@@ -81,7 +85,6 @@ ul li a:hover {
   display: flex;
   align-items: center;
   max-width: 100%;
-  margin: 0 auto;
 }
 
 .image-container {
