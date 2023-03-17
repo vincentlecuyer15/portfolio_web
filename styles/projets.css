@@ -6,16 +6,14 @@ body {
 /* Section des projets */
 
 .container {
-  height: 160vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 .title {
   text-align: center;
-  font-size: 2em;
+  font-size: var(--fs-h2);
   margin-top: 2em;
 }
 
@@ -32,13 +30,38 @@ body {
 }
 
 .code {
-  height: 30em;
-  width: 50%;
-  border: 2px solid var(--grey);
-  background-color: var(--white);
+  height: 20em;
+  width: 60%;
+  border: 2px solid var(--clr-grey);
+  background-color: var(--clr-white);
   overflow-y: scroll;
   white-space: pre-wrap;
-  font-family: monospace;
-  font-size: 14px;
+  font-size: var(--fs-body);
   margin-bottom: 5em;
+}
+
+.box-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.box {
+  flex-basis: 25%;
+  padding: 1rem;
+  background-color: #eeeeee;
+  border-radius: 5%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0 5vw 20vh 5vw;
+  height: 30vh;
+}
+
+.box h2 {
+  font-size: var(--fs-h2);
+  margin-bottom: 0.5rem;
+}
+
+.box p {
+  font-size: var(--fs-body);
+  line-height: 1.5;
 }

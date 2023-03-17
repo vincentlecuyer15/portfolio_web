@@ -1,7 +1,11 @@
 :root {
-  --grey: #bbbbbb;
-  --black: #000000;
-  --white: #ffffff;
+  --clr-grey: #bbbbbb;
+  --clr-black: #000000;
+  --clr-white: #ffffff;
+
+  --fs-h1: 3em;
+  --fs-h2: 1.8em;
+  --fs-body: 1.2em;
 }
 
 * {
@@ -15,14 +19,13 @@ html {
 }
 
 body {
-  font-size: 1em;
   margin-top: 6em;
 }
 
 /* Section Header */
 
 header {
-  background-color: var(--grey);
+  background-color: var(--clr-grey);
   height: 6em;
   display: flex;
   justify-content: space-between;
@@ -37,13 +40,13 @@ header {
 .name-container {
   display: flex;
   align-items: center;
-  color: var(--black);
+  color: var(--clr-black);
   height: 4em;
-  background-color: var(--grey);
+  background-color: var(--clr-grey);
 }
 
 header h2 {
-  font-size: 1.8rem;
+  font-size: var(--fs-h2);
   font-weight: 700;
   margin-left: 2em;
 }
@@ -65,13 +68,13 @@ ul li {
 ul li a {
   display: block;
   padding: 1.3em;
-  background-color: var(--grey);
+  background-color: var(--clr-grey);
   text-decoration: none;
-  color: var(--black);
+  color: var(--clr-black);
   border-radius: 10%;
   font-weight: bolder;
-  font-size: 1.2em;
   transition: color 0.3s;
+  font-size: var(--fs-body);
 }
 
 ul li a:hover {
@@ -107,15 +110,15 @@ ul li a:hover {
 #profilepicture {
   max-width: 100%;
   height: auto;
-  border: 4px solid var(--black);
+  border: 4px solid var(--clr-black);
 }
 
 hr {
   flex: 0 0 1px;
   height: 80%;
   margin: 0 8em 0 8em;
-  background-color: var(--black);
-  border: 1px solid var(--black);
+  background-color: var(--clr-black);
+  border: 1px solid var(--clr-black);
 }
 
 .text-container {
@@ -127,12 +130,12 @@ hr {
 }
 
 .home-title {
-  font-size: 1.8rem;
+  font-size: var(--fs-h2);
   margin-top: 6em;
 }
 
 .text-information {
-  font-size: 1.2rem;
+  font-size: var(--fs-body);
   line-height: 1.5;
   max-width: 100%;
   max-height: 100%;
@@ -167,7 +170,7 @@ hr {
 }
 
 .projects-image {
-  border: 4px solid var(--black);
+  border: 4px solid var(--clr-black);
   transition: transform 0.5s ease;
   transform-style: preserve-3d;
   perspective: 62.5em;
@@ -192,13 +195,13 @@ hr {
 }
 
 .projects-title {
-  font-size: 3em;
+  font-size: var(--fs-h1);
   margin-top: 1.5em;
 }
 
 .projects-subtitle {
   margin-top: 0.6em;
-  font-size: 2em;
+  font-size: var(--fs-h2);
   text-align: center;
 }
 
@@ -217,7 +220,7 @@ hr {
 .contact {
   width: 50%;
   margin: auto;
-  border: 1px solid var(--black);
+  border: 1px solid var(--clr-black);
   padding: 1.25em;
   box-sizing: border-box;
   display: flex;
@@ -227,7 +230,7 @@ hr {
 }
   
 .contact-section h1 {
-  font-size: 3em;
+  font-size: var(--fs-h1);
   margin-top: 2em;
 }
 
@@ -245,7 +248,7 @@ hr {
   border: 2px solid #cccccc;
   border-radius: 4px;
   resize: vertical;
-  font-size: 1em;
+  font-size: var(--fs-body);
   font-family: Arial, Helvetica, sans-serif;
 }
   
@@ -260,7 +263,7 @@ hr {
   display: block;
   margin: 0 auto;
   background-color: #4caf50;
-  color: var(--white);
+  color: var(--clr-white);
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -275,7 +278,7 @@ hr {
 /* Section Footer */
 
 footer {
-  background-color: var(--grey);
+  background-color: var(--clr-grey);
   width: 100%;
   height: 6em;
   justify-content: center;
@@ -291,6 +294,7 @@ footer {
   right: 20px;
   width: 25px;
   height: 26px;
+  z-index: 99;
 }
 
 #scroll { 
