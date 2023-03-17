@@ -1,8 +1,9 @@
-/* Section des projets */
 body {
   background: url('../img/background.jpg') no-repeat center center fixed;
   background-size: cover;
 }
+
+/* Section des projets */
 
 .container {
   height: 160vh;
@@ -33,8 +34,8 @@ body {
 .code {
   height: 30em;
   width: 50%;
-  border: 2px solid grey;
-  background-color: #FFFFFF;
+  border: 2px solid var(--grey);
+  background-color: var(--white);
   overflow-y: scroll;
   white-space: pre-wrap;
   font-family: monospace;
