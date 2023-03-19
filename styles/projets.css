@@ -1,5 +1,5 @@
 body {
-  background: url('../img/background.jpg') no-repeat center center fixed;
+  background: url("../img/background.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -68,33 +68,26 @@ body {
   line-height: 1.5;
 }
 
- /* Section responsive web design tablette */
+/* Section responsive web design */
 
- @media screen and (max-width: 1200px) {
-
+@media screen and (max-width: 1400px) {
   .box {
-  flex-basis: 50%;
-  height: 40vh;
+    flex-basis: 50%;
+    height: 100%;
+  }
+
+  .code,
+  .image {
+    width: 90%;
   }
 }
-
-/* Section responsive web design mobile */
 
 @media (max-width: 768px) {
   .box-container {
     flex-direction: column;
   }
 
-  .code {
-    width: 90%;
+  .title {
+    margin-top: 3.5em;
   }
-
-  .image {
-    max-width: 90%;
-  }
-
-.title {
-  margin-top: 3.5em;
-}
-
 }
