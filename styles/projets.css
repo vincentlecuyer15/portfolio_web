@@ -42,8 +42,8 @@ body {
 
 .box-container {
   display: flex;
-  width: 100%;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .box {
@@ -54,6 +54,7 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin: 0 5vw 20vh 5vw;
   height: 30vh;
+  width: 60vw;
 }
 
 .box h2 {
@@ -65,4 +66,35 @@ body {
   font-size: var(--fs-body);
   margin-top: 1em;
   line-height: 1.5;
+}
+
+ /* Section responsive web design tablette */
+
+ @media screen and (max-width: 1200px) {
+
+  .box {
+  flex-basis: 50%;
+  height: 40vh;
+  }
+}
+
+/* Section responsive web design mobile */
+
+@media (max-width: 768px) {
+  .box-container {
+    flex-direction: column;
+  }
+
+  .code {
+    width: 90%;
+  }
+
+  .image {
+    max-width: 90%;
+  }
+
+.title {
+  margin-top: 3.5em;
+}
+
 }
