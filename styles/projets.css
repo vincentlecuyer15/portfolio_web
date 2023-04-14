@@ -40,6 +40,13 @@ body {
   margin-bottom: 5em;
 }
 
+.github {
+  float: right;
+  margin-right: 5em;
+  font-size: 1.3em;
+  color: black;
+}
+
 .box-container {
   display: flex;
   justify-content: center;

@@ -51,7 +51,8 @@ header h2 {
   margin-left: 2em;
 }
 
-nav, ul {
+nav,
+ul {
   display: flex;
   align-items: center;
   list-style-type: none;
@@ -178,7 +179,7 @@ hr {
 }
 
 .projects-image:hover {
-  transform: rotateY(20deg); 
+  transform: rotateY(20deg);
   transform: rotateX(20deg);
 }
 
@@ -216,7 +217,7 @@ hr {
   height: 100vh;
   width: 100%;
 }
-  
+
 .contact {
   width: 60%;
   margin: auto;
@@ -227,7 +228,7 @@ hr {
   align-items: center;
   justify-content: center;
 }
-  
+
 .contact-section h1 {
   font-size: var(--fs-h1);
   margin-top: 2em;
@@ -238,8 +239,9 @@ hr {
   margin-bottom: 0.6em;
   font-weight: bold;
 }
-  
-.contact input, .contact textarea {
+
+.contact input,
+.contact textarea {
   width: 100%;
   padding: 0.6em;
   margin-bottom: 1.25em;
@@ -250,14 +252,14 @@ hr {
   font-size: var(--fs-body);
   font-family: Arial, Helvetica, sans-serif;
 }
-  
+
 .contact textarea {
   height: 12.5em;
   min-height: 12.5em;
   max-height: 12.5em;
   overflow-y: auto;
 }
-  
+
 .contact input[type="submit"] {
   display: block;
   margin: 0 auto;
@@ -269,11 +271,11 @@ hr {
   text-align: center;
   width: 6em;
 }
-  
+
 .contact input[type="submit"]:hover {
   background-color: #45a049;
 }
-  
+
 /* Section Footer */
 
 footer {
@@ -296,61 +298,61 @@ footer {
   z-index: 99;
 }
 
-#scroll { 
+#scroll {
   border-radius: 50%;
 }
 
 /* Section responsive web design */
 
 @media (max-width: 1600px) {
-/* Section accuei */
+  /* Section accuei */
 
-.principal-section {
-  height: 100%;
-}
+  .principal-section {
+    height: 100%;
+  }
 
-.home {
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
-}
+  .home {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
 
-.image-container {
-  margin: 7em 0 0 0;
-  max-height: 27em;
-  max-width: 20em;
-  min-width: 15em;
-}
+  .image-container {
+    margin: 7em 0 0 0;
+    max-height: 27em;
+    max-width: 20em;
+    min-width: 15em;
+  }
 
-hr {
-  margin: 4em 0 0 0;
-  width: 70%;
-}
+  hr {
+    margin: 4em 0 0 0;
+    width: 70%;
+  }
 
-.text-container {
-  margin-right: 0;
-  margin-top: 2em;
-  text-align: center;
-  height: auto;
-  width: 100%;
-}
+  .text-container {
+    margin-right: 0;
+    margin-top: 2em;
+    text-align: center;
+    height: auto;
+    width: 100%;
+  }
 
-.home-title {
-  margin-top: 1em;
-  display: flex;
-  justify-content: center;
-}
+  .home-title {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+  }
 
-.text-information {
-  margin: 1.5em 0 0 0;
-}
+  .text-information {
+    margin: 1.5em 0 0 0;
+  }
 
-.competence-list-container {
-  margin: 2em 0 2em 0;
-  justify-content: center;
-}
+  .competence-list-container {
+    margin: 2em 0 2em 0;
+    justify-content: center;
+  }
 
-/* Section projets */
+  /* Section projets */
 
   .projects-section {
     height: 100%;
@@ -373,12 +375,11 @@ hr {
   .contact input[type="submit"] {
     margin: 1em 0 3em 0;
   }
-
 }
 
 @media (max-width: 768px) {
   /* Section header */
-  
+
   header {
     flex-direction: column;
     height: auto;
@@ -401,12 +402,12 @@ hr {
 
   /* Section projet */
 
-    .projects-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .projects-container div {
-      width: 90%;
-    }
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
   }
+
+  .projects-container div {
+    width: 90%;
+  }
+}
