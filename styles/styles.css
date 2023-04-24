@@ -1,7 +1,7 @@
 :root {
-  --clr-grey: #bbbbbb;
-  --clr-black: #000000;
-  --clr-white: #ffffff;
+  --clr-grey: #d9d9d9;
+  --clr-black: #1a1a1a;
+  --clr-white: #f1f1f1;
 
   --fs-h1: 3em;
   --fs-h2: 1.8em;
@@ -148,7 +148,7 @@ hr {
 }
 
 .competence-list-container li {
-  background-color: #d3d3d3;
+  background-color: var(--clr-grey);
   padding: 1em;
   margin: 2em 1.5em 0em 0;
 }

@@ -56,7 +56,7 @@ body {
 .box {
   flex-basis: 25%;
   padding: 1rem;
-  background-color: #eeeeee;
+  background-color: var(--clr-grey);
   border-radius: 5%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin: 0 5vw 20vh 5vw;
