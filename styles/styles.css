@@ -76,7 +76,6 @@ ul li a {
   text-decoration: none;
   color: var(--clr-black);
   border-radius: 10%;
-  font-weight: bolder;
   transition: color 0.3s;
   font-size: var(--fs-body);
 }
