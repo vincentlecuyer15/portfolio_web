@@ -60,13 +60,14 @@ body {
   border-radius: 5%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin: 0 5vw 20vh 5vw;
-  height: 30vh;
+  height: 35vh;
   width: 60vw;
 }
 
 .box h2 {
   font-size: var(--fs-h2);
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .box p {
