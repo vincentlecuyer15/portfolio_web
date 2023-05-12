@@ -12,13 +12,13 @@
 
   --ff-body: "Roboto", Helvetica, sans-serif;
   --ff-contact: Arial, Helvetica, sans-serif;
+  --ff-code: "Lucida Console", monospace;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--ff-body);
 }
 
 html {
@@ -27,6 +27,7 @@ html {
 
 body {
   margin-top: 6em;
+  font-family: var(--ff-body);
 }
 
 /* Section Header */

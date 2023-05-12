@@ -33,18 +33,20 @@ body {
   height: 20em;
   width: 60%;
   border: 2px solid var(--clr-grey);
-  background-color: var(--clr-white);
+  background-color: var(--clr-black);
+  color: var(--clr-white);
   overflow-y: scroll;
   white-space: pre-wrap;
   font-size: var(--fs-body);
   margin-bottom: 5em;
+  font-family: var(--ff-code);
 }
 
 .github {
   float: right;
   margin-right: 5em;
   font-size: 1.3em;
-  color: black;
+  color: var(--clr-white);
 }
 
 .box-container {
@@ -60,12 +62,15 @@ body {
   border-radius: 5%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin: 0 5vw 20vh 5vw;
-  height: 35vh;
+  height: 40vh;
   width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .box h2 {
-  font-size: var(--fs-h2);
   margin-bottom: 0.5rem;
   text-align: center;
 }
@@ -76,9 +81,20 @@ body {
   line-height: 1.5;
 }
 
+.list {
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: disc;
+}
+
+.list li {
+  margin-top: 1em;
+  font-size: var(--fs-body);
+}
+
 /* Section responsive web design */
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
   .box {
     flex-basis: 50%;
     height: 100%;
